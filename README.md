@@ -6,7 +6,8 @@
 
 | 分支名 | 依赖列表                                                              |
 | ------ | --------------------------------------------------------------------- |
-| master   | react 18+ts+react-router-dom v6+axios+vite+eslint+prettier+commitizen |
+| master | react 18+ts+react-router-dom v6+axios+vite+eslint+prettier+commitizen |
+| pro    | (master)+react-query+arco-design+less                                 |
 
 ## Dependencies
 
@@ -24,10 +25,20 @@
 ```shell
 npm install degit -g
 
+# yarn
 npx degit ShowMeTheCodePLZ/vite-template-react myapp
 cd myapp
+yarn
 git init
-npx husky install 
+npx husky install
+
+# npm
+npx degit ShowMeTheCodePLZ/vite-template-react myapp
+cd myapp
+npm i
+git init
+npx husky install
+
 ```
 
 ### Prerequisites
@@ -40,14 +51,15 @@ npx husky install
 ### src:
 
 - api —— 请求接口
-- assets —— 存放一些静态资源、如 icon、图片
+- assets/static —— 存放一些静态资源、如 icon、图片
 - components —— 存放通用组件
-- design —— 存放全局样式
+- styles/design —— 存放全局样式
 - enums —— 存放全局 ts 字典
 - hooks —— 存放封装的自定义 hook
 - layouts —— 存放布局方案
-- pages —— 存放项目的页面
-- router —— 存放布局方案
+- lib/vendor —— 存放第三方库
+- pages/views —— 存放项目的页面
+- routes —— 存放路由组件
 - settings —— 存放一些全局的设置
 - store —— 存放状态管理相关
 - utils —— 存放通用的工具类函数

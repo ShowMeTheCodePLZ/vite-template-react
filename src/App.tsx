@@ -1,3 +1,7 @@
-export default function App() {
-  return <div className="App">hello world</div>;
-}
+import { FC } from "react";
+
+const App: FC = () => {
+  return <div>Hello World</div>;
+};
+
+export default App;

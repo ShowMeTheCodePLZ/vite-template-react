@@ -12,6 +12,7 @@
     "prettier"
   ],
   "plugins": ["@typescript-eslint", "react", "prettier"],
+  "arrow-parens": ["error", "as-needed"],
   "env": {
     "browser": true,
     "node": true
