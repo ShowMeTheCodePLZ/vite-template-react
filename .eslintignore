@@ -1,2 +1,16 @@
+# dependencies
 node_modules
+*.log
+
+# production
 dist
+
+# misc
+.DS_Store
+
+.env.local
+
+# editor
+.vscode
+.idea
+.github
