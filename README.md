@@ -7,7 +7,7 @@
 | 分支名 | 依赖列表                                                              |
 | ------ | --------------------------------------------------------------------- |
 | master | react 18+ts+react-router-dom v6+axios+vite+eslint+prettier+commitizen |
-| pro    | (master)+react-query+arco-design+less                                 |
+| pro    | (master)+ahooks+tailwind                                              |
 
 ## Dependencies
 
@@ -19,6 +19,8 @@
 - eslint
 - prettier
 - commitizen
+- ahooks
+- tailwind
 
 ## Getting Started
 
