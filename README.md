@@ -4,10 +4,11 @@
 
 ## Branch State
 
-| 分支名 | 依赖列表                                                              |
-| ------ | --------------------------------------------------------------------- |
-| master | react 18+ts+react-router-dom v6+axios+vite+eslint+prettier+commitizen |
-| pro    | (master)+react-query+arco-design+less                                 |
+| 分支名     | 依赖列表                                                              |
+| ---------- | --------------------------------------------------------------------- |
+| master     | react 18+ts+react-router-dom v6+axios+vite+eslint+prettier+commitizen |
+| pro        | (master)+ahooks+tailwind                                              |
+| full-stack | (pro)+nestjs+tailwind                                                 |
 
 ## Dependencies
 
