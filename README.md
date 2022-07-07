@@ -4,10 +4,11 @@
 
 ## Branch State
 
-| 分支名 | 依赖列表                                                              |
-| ------ | --------------------------------------------------------------------- |
-| master | react 18+ts+react-router-dom v6+axios+vite+eslint+prettier+commitizen |
-| pro    | (master)+ahooks+tailwind                                              |
+| 分支名     | 依赖列表                                                              |
+| ---------- | --------------------------------------------------------------------- |
+| master     | react 18+ts+react-router-dom v6+axios+vite+eslint+prettier+commitizen |
+| pro        | (master)+ahooks+tailwind                                              |
+| full-stack | (pro)+nestjs+tailwind                                                 |
 
 ## Dependencies
 
@@ -28,14 +29,14 @@
 npm install degit -g
 
 # yarn
-npx degit ShowMeTheCodePLZ/vite-template-react myapp
+npx degit ShowMeTheCodePLZ/vite-template-react@pro myapp
 cd myapp
 yarn
 git init
 npx husky install
 
 # npm
-npx degit ShowMeTheCodePLZ/vite-template-react myapp
+npx degit ShowMeTheCodePLZ/vite-template-react@pro myapp
 cd myapp
 npm i
 git init
