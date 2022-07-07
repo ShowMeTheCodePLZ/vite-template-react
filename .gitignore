@@ -16,3 +16,41 @@ dist
 .vscode
 .idea
 .github
+
+
+# nest
+# compiled output
+/nest/dist
+/nest/node_modules
+
+# Logs
+/nest/logs
+/nest/*.log
+/nest/npm-debug.log*
+/nest/pnpm-debug.log*
+/nest/yarn-debug.log*
+/nest/yarn-error.log*
+/nest/lerna-debug.log*
+
+# OS
+/nest/.DS_Store
+
+# Tests
+/nest/coverage
+/nest/.nyc_output
+
+# IDEs and editors
+/nest/.idea
+/nest/.project
+/nest/.classpath
+/nest/.c9/
+/nest/*.launch
+/nest/.settings/
+/nest/*.sublime-workspace
+
+# IDE - VSCode
+/nest/.vscode/*
+/nest/!.vscode/settings.json
+/nest/!.vscode/tasks.json
+/nest/!.vscode/launch.json
+/nest/!.vscode/extensions.json

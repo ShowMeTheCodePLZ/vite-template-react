@@ -16,3 +16,6 @@ dist
 .vscode
 .idea
 .github
+
+# nest
+/nest/*
