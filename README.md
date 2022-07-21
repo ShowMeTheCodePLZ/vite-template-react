@@ -24,6 +24,7 @@
 - ahooks
 - tailwind
 - nestjs
+- typeorm
 
 ## Getting Started
 
