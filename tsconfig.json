@@ -12,6 +12,8 @@
     "paths": {
       "@/*": ["./src/*"]
     },
-    "allowSyntheticDefaultImports": true
+    "allowSyntheticDefaultImports": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true
   }
 }
