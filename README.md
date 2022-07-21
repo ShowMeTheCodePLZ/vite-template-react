@@ -30,14 +30,14 @@
 npm install degit -g
 
 # yarn
-npx degit ShowMeTheCodePLZ/vite-template-react@pro myapp
+npx degit ShowMeTheCodePLZ/vite-template-react#pro myapp
 cd myapp
 yarn
 git init
 npx husky install
 
 # npm
-npx degit ShowMeTheCodePLZ/vite-template-react@pro myapp
+npx degit ShowMeTheCodePLZ/vite-template-react#pro myapp
 cd myapp
 npm i
 git init
