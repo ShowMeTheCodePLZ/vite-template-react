@@ -8,7 +8,8 @@
 | ---------- | --------------------------------------------------------------------- |
 | master     | react 18+ts+react-router-dom v6+axios+vite+eslint+prettier+commitizen |
 | pro        | (master)+ahooks+tailwind                                              |
-| full-stack | (pro)+nestjs+tailwind                                                 |
+| ssr        | (nextjs template)+prettier+commitizen+tailwind                        |
+| full-stack | (pro)+(nestjs template)+tailwind                                      |
 
 ## Dependencies
 
