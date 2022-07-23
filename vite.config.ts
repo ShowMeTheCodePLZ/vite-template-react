@@ -1,6 +1,7 @@
 import type { UserConfigFn, UserConfig } from "vite";
 import react from "@vitejs/plugin-react";
 import legacy from "@vitejs/plugin-legacy";
+import viteEslint from "vite-plugin-eslint";
 import tsconfigPaths from "vite-tsconfig-paths";
 import mkcert from "vite-plugin-mkcert";
 
@@ -13,6 +14,7 @@ const defineConfig: UserConfigFn = ({ command, mode }) => {
       react(),
       tsconfigPaths(),
       legacy(),
+      viteEslint(),
       mkcert({
         source: "coding",
       }),
