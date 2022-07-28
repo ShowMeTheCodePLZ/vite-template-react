@@ -31,7 +31,7 @@
 npm install degit -g
 
 # yarn
-npx degit ShowMeTheCodePLZ/vite-template-react#full-stack myapp
+npx degit ShowMeTheCodePLZ/vite-template-react#full-stack-nest myapp
 cd myapp
 yarn
 git init
@@ -40,7 +40,7 @@ cd nest
 yarn
 
 # npm
-npx degit ShowMeTheCodePLZ/vite-template-react#full-stack myapp
+npx degit ShowMeTheCodePLZ/vite-template-react#full-stack-nest myapp
 cd myapp
 npm i
 git init
