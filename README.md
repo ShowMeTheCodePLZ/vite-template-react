@@ -4,11 +4,12 @@
 
 ## Branch State
 
-| 分支名     | 依赖列表                                                               |
-| ---------- | --------------------------------------------------------------------- |
-| master     | react 18+ts+react-router-dom v6+axios+vite+eslint+prettier+commitizen |
-| pro        | (master)+ahooks+tailwind                                              |
-| full-stack-nest | (pro)+(nestjs template)+typeorm+tailwind                         |
+| 分支名          | 依赖列表                                                              |
+| --------------- | --------------------------------------------------------------------- |
+| master          | react 18+ts+react-router-dom v6+axios+vite+eslint+prettier+commitizen |
+| pro             | (master)+ahooks+tailwind                                              |
+| full-stack-nest | (pro)+(nestjs template)+tailwind                                      |
+| full-stack-koa  | (pro)+koa2+koa-body+koa-json-error+koa-router+koa-static+tailwind     |
 
 ## Dependencies
 
