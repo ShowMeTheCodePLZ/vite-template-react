@@ -4,11 +4,12 @@
 
 ## Branch State
 
-| 分支名     | 依赖列表                                                              |
-| ---------- | --------------------------------------------------------------------- |
-| master     | react 18+ts+react-router-dom v6+axios+vite+eslint+prettier+commitizen |
-| pro        | (master)+ahooks+tailwind                                              |
+| 分支名          | 依赖列表                                                              |
+| --------------- | --------------------------------------------------------------------- |
+| master          | react 18+ts+react-router-dom v6+axios+vite+eslint+prettier+commitizen |
+| pro             | (master)+ahooks+tailwind                                              |
 | full-stack-nest | (pro)+(nestjs template)+tailwind                                      |
+| full-stack-koa  | (pro)+koa2+koa-body+koa-json-error+koa-router+koa-static+tailwind     |
 
 ## Dependencies
 
@@ -21,6 +22,11 @@
 - prettier
 - commitizen
 - ahooks
+- koa2
+- koa-body
+- koa-json-error
+- koa-router
+- koa-static
 - tailwind
 
 ## Getting Started
@@ -29,18 +35,22 @@
 npm install degit -g
 
 # yarn
-npx degit ShowMeTheCodePLZ/vite-template-react#pro myapp
+npx degit ShowMeTheCodePLZ/vite-template-react#full-stack-koa myapp
 cd myapp
 yarn
 git init
 npx husky install
+cd koa
+yarn
 
 # npm
-npx degit ShowMeTheCodePLZ/vite-template-react#pro myapp
+npx degit ShowMeTheCodePLZ/vite-template-react#full-stack-koa myapp
 cd myapp
 npm i
 git init
 npx husky install
+cd koa
+yarn
 
 ```
 
@@ -65,4 +75,15 @@ npx husky install
 - routes —— 存放路由组件
 - settings —— 存放一些全局的设置
 - store —— 存放状态管理相关
+- utils —— 存放通用的工具类函数
+
+### koa/src:
+
+- assets/static —— 存放一些静态资源、如 icon、图片
+- config —— 配置文件信息
+- constants —— 全局常量
+- jobs —— 高并发下队列处理
+- routes —— 业务代码
+- tasks —— 定时任务
+- templates —— 页面模板
 - utils —— 存放通用的工具类函数
