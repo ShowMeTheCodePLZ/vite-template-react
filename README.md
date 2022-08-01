@@ -80,10 +80,12 @@ yarn
 ### koa/src:
 
 - assets/static —— 存放一些静态资源、如 icon、图片
+- controllers —— 存放控制器
+- models —— 存放数据模型
 - config —— 配置文件信息
 - constants —— 全局常量
 - jobs —— 高并发下队列处理
-- routes —— 业务代码
+- routes —— 路由
 - tasks —— 定时任务
 - templates —— 页面模板
 - utils —— 存放通用的工具类函数
